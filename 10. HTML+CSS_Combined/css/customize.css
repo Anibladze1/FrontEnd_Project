@@ -1,0 +1,114 @@
+.customize {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 140px 220px;
+  gap: 98px;
+
+  position: absolute;
+  height: 759px;
+  margin-right: -1px;
+  margin-top: 2509px;
+}
+
+.customize-block {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+
+  width: 1481px;
+  height: 479px;
+}
+
+.customize-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  width: 697px;
+  height: 381px;
+}
+
+.customize-txt-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+
+  width: 697px;
+  height: 258px;
+}
+
+.cusotmize-txt-block-h1 {
+  position: absolute;
+  width: 580px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.cusotmize-txt-block-p {
+  width: 680px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.customize-yellow-element-img {
+  width: 270px;
+  height: 28.2px;
+  margin-top: 140px;
+  margin-left: 165px;
+}
+
+.customize-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+
+  width: 176px;
+  height: 63px;
+  margin-top: 60px;
+
+  background: #4f9cf9;
+  border-radius: 6px;
+}
+
+.customize-btn a:link {
+  color: #f7f7ee;
+  text-decoration: none;
+}
+
+.customize-btn a:visited {
+  color: #f7f7ee;
+  text-decoration: none;
+}
+
+.customize-btn a:hover {
+  color: #f7f7ee;
+  text-decoration: none;
+}
+
+.customize-btn a:active {
+  color: #f7f7ee;
+  text-decoration: none;
+}

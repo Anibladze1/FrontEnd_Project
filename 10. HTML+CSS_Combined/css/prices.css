@@ -1,0 +1,332 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 140px 220px;
+  gap: 60px;
+
+  position: absolute;
+  height: 1272px;
+  margin-right: -1px;
+  margin-top: 3268px;
+}
+.pricing-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+  width: 1481px;
+  height: 992px;
+}
+.pricing-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+
+  width: 1481px;
+  height: 171px;
+}
+.pricing-heading h1 {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+.pricing-heading p {
+  width: 830px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+.pricing-element-img {
+  height: 30px;
+  width: 310px;
+  margin-top: 57px;
+  margin-left: 300px;
+}
+
+/* Pricing Section  */
+.pricing-price-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  width: 1481px;
+  height: 761px;
+}
+
+.pricing-price-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 44px;
+  gap: 25px;
+
+  width: 472.33px;
+  height: 634px;
+
+  background: #ffffff;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+}
+
+.pricing-price-board li {
+  width: 347.33px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+  /* margin-bottom: 10px; */
+}
+
+.pricing-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 384.33px;
+  height: 153px;
+}
+
+.pricing-text-block h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.pricing-capture {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.pricing-paragraph-free {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #212529;
+}
+
+.pricing-bulletpoints {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-left: 30px;
+  width: 330.33px;
+
+  list-style-image: url(/10.\ HTML+CSS_Combined/src/pricing-icon1.png);
+}
+
+.pricing-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+
+  width: 175px;
+  height: 51px;
+
+  background: #ffffff;
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.pricing-button:link {
+  color: #212529;
+  text-decoration: none;
+}
+
+.pricing-button:visited {
+  color: #212529;
+  text-decoration: none;
+}
+
+.pricing-button:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.pricing-button:active {
+  color: #212529;
+  text-decoration: none;
+}
+
+/*  second block */
+
+.pricing-price-board2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 44px;
+  gap: 25px;
+
+  width: 472.33px;
+  height: 761px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.pricing-text-block2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 384.33px;
+  height: 153px;
+}
+
+.pricing-personal {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #043873;
+}
+
+.pricing-capture2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  letter-spacing: -0.02em;
+
+  color: #043873;
+}
+
+.pricing-dollar2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #043873;
+}
+
+.pricing-bulletpoints2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 28px;
+  margin-left: 30px;
+
+  list-style-image: url(/10.\ HTML+CSS_Combined/src/pricing-icon2.png);
+}
+
+.pricing-price-board2 li {
+  width: 347.33px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  letter-spacing: -0.02em;
+
+  color: #043873;
+}
+
+.pricing-button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  margin-top: 10px;
+
+  background: #4f9cf9;
+  border-radius: 8px;
+  border-color: #4f9cf9;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.pricing-button2:link {
+  color: #f7f7ee;
+  text-decoration: none;
+}
+
+.pricing-button2:visited {
+  color: #f7f7ee;
+  text-decoration: none;
+}
+
+.pricing-button2:hover {
+  color: #f7f7ee;
+  text-decoration: none;
+}
+
+.pricing-button2:active {
+  color: #f7f7ee;
+  text-decoration: none;
+}
